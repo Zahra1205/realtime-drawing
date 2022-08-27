@@ -35,7 +35,7 @@ function modelLoaded(){
 }
 function draw(){
 background("#FFFFFF");
-document.getElementById("size_square").innerHTML=difference;
+document.getElementById("size_square").innerHTML="Length of the Square : "+difference;
 fill("#ADD8E6");
 stroke("#ADD8E6");
 square(noseX, noseY, difference);
